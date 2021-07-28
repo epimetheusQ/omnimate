@@ -1,2 +1,2 @@
-# omnimate
-use simple code.
+# 开发初衷
+
