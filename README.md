@@ -1,0 +1,2 @@
+# omnimate
+use simple code.
