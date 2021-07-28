@@ -1,0 +1,14 @@
+{
+    "name": "epimethenus/omnimate",
+    "description": "this is description",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wuerqiQs",
+            "email": "it_527@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
