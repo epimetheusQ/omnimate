@@ -1,6 +1,6 @@
 {
     "name": "epimetheus/omnimate",
-    "description": "this is new descripte",
+    "description": "composer创建library，创建一个omnimate的包，减少phper的工作时间，让他们尽情的玩耍！抽空恋爱。",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -10,5 +10,12 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Epimetheus\\Omnimate\\": "src/"
+        }
+    }
 }
