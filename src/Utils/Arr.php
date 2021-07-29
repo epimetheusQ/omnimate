@@ -1,20 +1,21 @@
 <?php
 /**
  * php数组日常使用的扩展类（方案类似laravel Collection）
- * @author 527
+ * @author wuerqiQs
  * @license MIT
  * @link https://packagist.org/packages/epimetheus/omnimate
+ * @link https://github.com/epimetheusQ?tab=repositories
  */
-namespace Omnimate\Utils;
+namespace Epimetheus\Omnimate\Utils;
 
 class Arr
 {
-    public function groupKey(array $array = [], string $key, array $fields = [])
+    public function groupKey(array $data, string $key, array $fields = [])
     {
         $res = [];
-        foreach ($array as $index => $val) {
+        foreach ($data as $index => $val) {
             if (! isset($val[$key])) {
-                return [];
+                return $res;
             }
 
             $res[$val[$key]][] = $val;
