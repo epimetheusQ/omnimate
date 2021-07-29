@@ -9,6 +9,6 @@
             "email": "it_527@163.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {}
 }
